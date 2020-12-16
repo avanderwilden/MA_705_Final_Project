@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Dec 15 22:25:03 2020
-
-@author: VANDERW_ANDR
+This program creates a dashboard that displays Covid infections, hospitalizations, and deaths by state
 """
 
 
