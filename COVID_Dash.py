@@ -40,6 +40,8 @@ def generate_table(dataframe, max_rows=10):
 
 app = dash.Dash(__name__, external_stylesheets=stylesheet)
 
+server = app.server
+
 app.layout = html.Div([
     html.H1('COVID-19 State Metric Tracker', style={'textAlign': 'center'}),
      html.H6('Andrew vanderWilden -- MA 705 Final Project', style = {'textAlign': 'center'}),
